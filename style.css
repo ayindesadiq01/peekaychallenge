@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  /* margin: 0 auto;
+  padding: 50px; */
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 20%;
+}
+
+.book-lists {
+  margin-bottom: 100px;
+}
+
+.list-boxes {
+  border: 1.5px solid black;
+  padding: 5px;
+}
+
+.list-box {
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: .5em;
+}
+
+.add-book {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.add-text {
+  display: grid;
+  margin: 1em 0;
+}
+
+.add-text input {
+  margin: .5em 0;
+  /* font-size: 1.1rem; */
+  padding: .5em .3em;
+  border: 1px solid black;
+}
+
+.add-text input:placeholder-shown {
+  font-size: .7rem;
+}
+
+.add-btn {
+  position: relative;
+  left: 80%;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid grey;
+  padding: .3em .5em;
+}
+
+h4 {
+  text-align: center;
+}
+
