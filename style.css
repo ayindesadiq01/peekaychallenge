@@ -17,13 +17,10 @@ body {
   margin-top: 20%;
 }
 
-.book-lists {
-  margin-bottom: 100px;
-}
-
 .list-boxes {
   border: 1.5px solid black;
   padding: 5px;
+  margin: 2em 0;
 }
 
 .list-box {
